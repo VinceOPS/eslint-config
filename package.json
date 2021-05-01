@@ -1,21 +1,21 @@
 {
-  "name": "@gojob/eslint-config",
-  "version": "3.0.0",
-  "description": "ESLint config for TypeScript projects at Gojob",
+  "name": "@vinceops/eslint-config",
+  "version": "1.0.0",
+  "description": "ESLint config for TypeScript projects",
   "main": "index.js",
-  "repository": "https://github.com/gojob-1337/eslint-config",
-  "author": "VinceOPS <vincent@gojob.com>",
+  "repository": "https://github.com/VinceOPS/eslint-config",
+  "author": "VinceOPS",
   "license": "MIT",
   "peerDependencies": {
     "eslint": ">= 7",
     "prettier": ">= 2"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^3.10.1",
-    "@typescript-eslint/parser": "^3.10.1",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-simple-import-sort": "^5.0.3"
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0"
   }
 }

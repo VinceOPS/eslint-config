@@ -1,19 +1,20 @@
-# Gojob ESLint
+# Yet another opinionated ESLint configuration
 
-Feel free to extend our opinionated ESLint configurations.
+Feel free to extend it.  
+Initially made at Gojob, see [@gojob/eslint-config](https://github.com/gojob-1337/eslint-config).
 
 ## TypeScript
 
-With the [deprecation of TSLint](https://medium.com/palantir/tslint-in-2019-1a144c2317a9) (we'll miss you, buddy), we decided to progressively switch all our linting processes to [ESLint].
+With the [deprecation of TSLint](https://medium.com/palantir/tslint-in-2019-1a144c2317a9) (we'll miss you, buddy), we decided to progressively switch all our linting processes to [ESLint](https://eslint.org/).
 
 ### Installation
 
-You can extend our default configuration, in your own ESLint configuration:
+You can extend our default configuration, in your own ESLint configuration (e.g. `.eslintrc`):
 
 ```javascript
 {
   "extends": [
-    "@gojob/eslint-config/typescript" // or typescript-react
+    "@vinceops/eslint-config/typescript" // or typescript-react
   ],
 }
 ```
@@ -21,9 +22,9 @@ You can extend our default configuration, in your own ESLint configuration:
 _Assuming you already installed `typescript`..._
 
 ```bash
-yarn add --dev eslint @gojob/eslint-config prettier
+yarn add --dev eslint @vinceops/eslint-config prettier
 # or
-npm install --save-dev eslint @gojob/eslint-config prettier
+npm install --save-dev eslint @vinceops/eslint-config prettier
 ```
 
 ### Integration with VSCode

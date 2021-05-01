@@ -4,8 +4,6 @@ module.exports = {
     "plugin:react/recommended",
     "prettier",
     "plugin:prettier/recommended",
-    "prettier/@typescript-eslint",
-    "prettier/react",
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:import/typescript"
@@ -20,6 +18,7 @@ module.exports = {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/prefer-interface": "off",
     "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
     "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
     "@typescript-eslint/no-parameter-properties": "off",
     "@typescript-eslint/no-explicit-any": "off",
@@ -27,7 +26,7 @@ module.exports = {
     "@typescript-eslint/no-non-null-assertion": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "simple-import-sort/sort": ["error", {
+    "simple-import-sort/imports": ["error", {
       "groups": [
         // `react` related packages come first.
         ["^react$", "^react-dom$"],
